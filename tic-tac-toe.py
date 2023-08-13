@@ -22,25 +22,25 @@ def containsByChars (first, seccond):
 	return True
 
 
-tic_tac_toe([
+print(tic_tac_toe([
   ["X", "O", "O"],
   ["O", "X", "O"],
   ["O", "#", "X"]
-])
+]))
 # ➞ "Player 1 wins"
 
 
-tic_tac_toe([
+print(tic_tac_toe([
   ["X", "O", "O"],
   ["O", "X", "O"],
   ["X", "#", "O"]
-])
+]))
 # ➞ "Player 2 wins"
 
 
-tic_tac_toe([
+print(tic_tac_toe([
   ["X", "X", "O"],
   ["O", "X", "O"],
   ["X", "O", "#"]
-])
+]))
 # ➞ "It's a Tie"
